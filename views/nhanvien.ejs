@@ -1,0 +1,93 @@
+<%- include('partials/header.ejs') %>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="fw-bold"><i class="fas fa-user-tie me-2 text-primary"></i>Danh Sách Nhân Viên</h3>
+        <div>
+            <a href="/nhanvien/them" class="btn btn-primary shadow-sm">
+                <i class="fas fa-plus me-2"></i>Thêm Nhân Viên
+            </a>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover mb-0 align-middle">
+                    <thead>
+                        <tr>
+                            <th>Mã NV</th>
+                            <th>Họ Tên</th>
+                            <th>Giới Tính</th>
+                            <th>Phòng Ban</th>
+                            <th>Chức Vụ</th>
+                            <th>Trạng Thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% if(typeof data !=='undefined' && data.length> 0) { %>
+                            <% data.forEach(nv=> { %>
+                                <tr>
+                                    <td class="fw-bold text-primary">
+                                        <%= nv.maNV %>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center justify-content-start">
+                                            <img src="/images/<%= nv.hinhAnh %>" alt="avatar"
+                                                class="rounded-circle me-2"
+                                                style="width:35px; height:35px; object-fit:cover;"
+                                                onerror="this.src='https://ui-avatars.com/api/?name=<%= nv.hoTen %>&background=random'">
+                                            <span>
+                                                <%= nv.hoTen %>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <%= nv.gioiTinh %>
+                                    </td>
+                                    <td>
+                                        <%= nv.phongBan ? nv.phongBan.tenPhongBan : '---' %>
+                                    </td>
+                                    <td><span class="badge bg-secondary">
+                                            <%= nv.chucVu ? nv.chucVu.tenChucVu : '---' %>
+                                        </span></td>
+                                    <td>
+                                        <span
+                                            class="badge <%= nv.trangThai === 'Đang làm việc' ? 'bg-success' : 'bg-danger' %>">
+                                            <%= nv.trangThai %>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <a href="/nhanvien/chitiet/<%= nv._id %>"
+                                                class="btn btn-sm btn-outline-info" title="Chi tiết">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <a href="/nhanvien/sua/<%= nv._id %>" class="btn btn-sm btn-outline-warning"
+                                                title="Sửa">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <form action="/nhanvien/xoa/<%= nv._id %>?_method=DELETE" method="POST"
+                                                class="d-inline"
+                                                onsubmit="return confirm('Bạn có chắc muốn xóa nhân viên này?');">
+                                                <button type="submit" class="btn btn-sm btn-outline-danger" title="Xóa">
+                                                    <i class="fas fa-trash"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <% }) %>
+                                    <% } else { %>
+                                        <tr>
+                                            <td colspan="7" class="text-center py-5 text-muted">
+                                                <i class="fas fa-search me-2"></i>Không tìm thấy nhân viên nào.
+                                            </td>
+                                        </tr>
+                                        <% } %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer.ejs') %>

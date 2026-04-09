@@ -1,0 +1,134 @@
+<%- include('partials/header.ejs') %>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="fw-bold"><i class="fas fa-users-cog me-2 text-primary"></i>Quản Lý Tài Khoản</h3>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white py-3">
+            <h5 class="mb-0"><i class="fas fa-user-plus me-2"></i>Tạo Tài Khoản Mới</h5>
+        </div>
+        <div class="card-body">
+            <form action="/taikhoan/them" method="POST" class="row g-3">
+                <div class="col-md-4">
+                    <label class="form-label fw-bold">Chọn Nhân Viên</label>
+                    <select name="nhanVienId" class="form-select" required>
+                        <option value="">-- Chọn nhân viên --</option>
+                        <% if(typeof availableEmployees !=='undefined' ) { %>
+                            <% availableEmployees.forEach(nv=> { %>
+                                <option value="<%= nv._id %>">
+                                    <%= nv.maNV %> - <%= nv.hoTen %>
+                                </option>
+                                <% }) %>
+                                    <% } %>
+                    </select>
+                    <div class="form-text">Chỉ hiện nhân viên chưa có tài khoản</div>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Tên Đăng Nhập</label>
+                    <input type="text" name="tenDangNhap" class="form-control" placeholder="VD: van_a" required>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Mật Khẩu</label>
+                    <input type="password" name="matKhau" class="form-control" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label fw-bold">Vai Trò</label>
+                    <select name="vaiTro" class="form-select">
+                        <option value="user">User</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+                <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-primary px-4">
+                        <i class="fas fa-plus me-2"></i>Tạo Tài Khoản
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover mb-0 align-middle">
+                    <thead>
+                        <tr>
+                            <th>Tên Đăng Nhập</th>
+                            <th>Họ Tên</th>
+                            <th>Liên kết NV</th>
+                            <th>Email</th>
+                            <th>Vai Trò</th>
+                            <th>Trạng Thái</th>
+                            <th class="text-end">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% if(typeof data !=='undefined' && data.length> 0) { %>
+                            <% data.forEach(acc=> { %>
+                                <tr>
+                                    <td class="fw-bold">
+                                        <%= acc.tenDangNhap %>
+                                    </td>
+                                    <td>
+                                        <%= acc.hoTen %>
+                                    </td>
+                                    <td>
+                                        <% if(acc.nhanVien) { %>
+                                            <span class="badge bg-light text-dark border">
+                                                <%= acc.nhanVien.maNV %>
+                                            </span>
+                                            <% } else { %>
+                                                <span class="text-muted small">---</span>
+                                                <% } %>
+                                    </td>
+                                    <td>
+                                        <%= acc.email %>
+                                    </td>
+                                    <td class="text-uppercase small fw-bold">
+                                        <span class="badge <%= acc.vaiTro === 'admin' ? 'bg-danger' : 'bg-primary' %>">
+                                            <%= acc.vaiTro %>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="badge <%= acc.trangThai ? 'bg-success' : 'bg-secondary' %>">
+                                            <%= acc.trangThai ? 'Hoạt động' : 'Bị khóa' %>
+                                        </span>
+                                    </td>
+                                    <td class="text-end">
+                                        <div class="action-buttons justify-content-end">
+                                            <form action="/taikhoan/toggle/<%= acc._id %>" method="POST"
+                                                class="d-inline">
+                                                <button type="submit"
+                                                    class="btn btn-sm <%= acc.trangThai ? 'btn-outline-secondary' : 'btn-primary' %>"
+                                                    title="<%= acc.trangThai ? 'Khóa' : 'Mở khóa' %>">
+                                                    <i
+                                                        class="fas <%= acc.trangThai ? 'fa-lock' : 'fa-lock-open' %>"></i>
+                                                </button>
+                                            </form>
+                                            <!-- Nút xóa (ngăn xóa admin chính) -->
+                                            <% if(acc.tenDangNhap !=='admin' ) { %>
+                                                <form action="/taikhoan/xoa/<%= acc._id %>?_method=DELETE" method="POST"
+                                                    class="d-inline"
+                                                    onsubmit="return confirm('Bạn có chắc muốn xóa tài khoản này?');">
+                                                    <button type="submit" class="btn btn-sm btn-outline-danger"
+                                                        title="Xóa">
+                                                        <i class="fas fa-trash"></i>
+                                                    </button>
+                                                </form>
+                                                <% } %>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <% }) %>
+                                    <% } else { %>
+                                        <tr>
+                                            <td colspan="6" class="text-center py-5 text-muted">Chưa có tài khoản nào
+                                                khác ngoài admin mặc định</td>
+                                        </tr>
+                                        <% } %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <%- include('partials/footer.ejs') %>

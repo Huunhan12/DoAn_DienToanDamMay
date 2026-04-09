@@ -1,0 +1,37 @@
+[
+  {
+    "_id": { "$oid": "661444444444444444444441" },
+    "maPhongBan": "PB01",
+    "tenPhongBan": "Kỹ Thuật",
+    "moTa": "Phòng chịu trách nhiệm về kỹ thuật và hạ tầng",
+    "ngayThanhLap": { "$date": "2020-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661444444444444444444442" },
+    "maPhongBan": "PB02",
+    "tenPhongBan": "Nhân Sự",
+    "moTa": "Quản lý nhân sự và các chế độ chính sách",
+    "ngayThanhLap": { "$date": "2020-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661444444444444444444443" },
+    "maPhongBan": "PB03",
+    "tenPhongBan": "Tài Chính",
+    "moTa": "Quản lý ngân sách và kế toán",
+    "ngayThanhLap": { "$date": "2020-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661444444444444444444444" },
+    "maPhongBan": "PB04",
+    "tenPhongBan": "Kinh Doanh",
+    "moTa": "Phòng chịu trách nhiệm về doanh thu và khách hàng",
+    "ngayThanhLap": { "$date": "2021-06-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661444444444444444444445" },
+    "maPhongBan": "PB05",
+    "tenPhongBan": "Marketing",
+    "moTa": "Phòng chịu trách nhiệm về hình ảnh và quảng bá",
+    "ngayThanhLap": { "$date": "2022-03-15T00:00:00Z" }
+  }
+]

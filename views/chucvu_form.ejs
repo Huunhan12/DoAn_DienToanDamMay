@@ -1,0 +1,37 @@
+<%- include('partials/header.ejs') %>
+<div class="row justify-content-center mt-4">
+    <div class="col-md-6">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary py-3 d-flex justify-content-between align-items-center">
+                <h4 class="mb-0 text-white"><%= cv ? 'Sửa Chức Vụ' : 'Thêm Chức Vụ Mới' %></h4>
+                <a href="/chucvu" class="btn btn-sm btn-light">Quay lại</a>
+            </div>
+            <div class="card-body p-4">
+                <form action="<%= cv ? '/chucvu/sua/' + cv._id : '/chucvu/them' %>" method="POST">
+                    <div class="mb-3">
+                        <label class="form-label text-muted">Mã Chức Vụ <span class="text-danger">*</span></label>
+                        <input type="text" name="maChucVu" class="form-control bg-dark-subtle border-secondary text-white" value="<%= cv ? cv.maChucVu : '' %>" required <%= cv ? 'readonly' : '' %>>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-muted">Tên Chức Vụ <span class="text-danger">*</span></label>
+                        <input type="text" name="tenChucVu" class="form-control bg-dark-subtle border-secondary text-white" value="<%= cv ? cv.tenChucVu : '' %>" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-muted">Mô Tả</label>
+                        <textarea name="moTa" class="form-control bg-dark-subtle border-secondary text-white" rows="3"><%= cv ? cv.moTa : '' %></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-muted">Hệ Số Lương <span class="text-secondary">(Mặc định 1.0)</span></label>
+                        <input type="number" step="0.1" name="heSoLuong" class="form-control bg-dark-subtle border-secondary text-white" value="<%= cv ? cv.heSoLuong : '1.0' %>">
+                    </div>
+                    <div class="mt-4 text-end">
+                        <button type="submit" class="btn btn-primary px-5 fw-bold shadow-sm">
+                            <i class="fas fa-save me-2"></i>Lưu Chức Vụ
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('partials/footer.ejs') %>

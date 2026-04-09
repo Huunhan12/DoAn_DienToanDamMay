@@ -1,0 +1,7 @@
+<%- include('partials/header.ejs') %>
+<div class="text-center mt-5">
+    <h1 class="display-1 text-danger fw-bold">404/Lỗi</h1>
+    <h3 class="mb-4"><%= typeof errorMsg !== 'undefined' ? errorMsg : 'Đã có lỗi xảy ra!' %></h3>
+    <a href="/" class="btn btn-primary"><i class="fas fa-home me-2"></i>Về Trang Chủ</a>
+</div>
+<%- include('partials/footer.ejs') %>

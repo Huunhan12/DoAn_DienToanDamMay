@@ -1,0 +1,85 @@
+<%- include('partials/header.ejs') %>
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="fw-bold"><i class="fas fa-money-check-alt me-2 text-primary"></i>Bảng Lương Nhân Viên</h3>
+    <div class="d-flex align-items-center gap-3">
+        <!-- Bộ chọn tháng/năm -->
+        <form action="/salary" method="GET" id="monthFilterForm" class="d-flex align-items-center">
+            <label class="me-2 text-nowrap fw-bold">Kỳ lương:</label>
+            <input type="month" name="month" class="form-control form-control-sm" value="<%= selectedMonth %>" onchange="this.form.submit()">
+        </form>
+
+        <% if(user.vaiTro === 'admin') { %>
+        <a href="/salary/export?month=<%= selectedMonth %>" class="btn btn-primary shadow-sm">
+            <i class="fas fa-file-excel me-2"></i>Xuất Excel
+        </a>
+        <% } %>
+    </div>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0 align-middle">
+                <thead>
+                    <tr>
+                        <th>Mã NV</th>
+                        <th>Họ Tên</th>
+                        <th>Phòng Ban</th>
+                        <th>Chức Vụ (HS)</th>
+                        <th>Ngày Công</th>
+                        <th>Lương CB</th>
+                        <th>Phụ Cấp</th>
+                        <th class="text-primary fw-bold">Tổng Lương</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% if(typeof data !== 'undefined' && data.length > 0) { %>
+                        <% data.forEach(nv => { %>
+                            <tr>
+                                <td class="fw-bold text-primary"><%= nv.maNV %></td>
+                                <td><%= nv.hoTen %></td>
+                                <td><%= nv.phongBan ? nv.phongBan.tenPhongBan : '---' %></td>
+                                <td>
+                                    <%= nv.chucVu ? nv.chucVu.tenChucVu : '---' %> 
+                                    <small class="text-muted">(x<%= nv.chucVu ? nv.chucVu.heSoLuong : 1 %>)</small>
+                                </td>
+                                <td>
+                                    <span class="badge bg-info text-dark">
+                                        <%= nv.ngayCong %> ngày
+                                    </span>
+                                </td>
+                                <td><%= nv.luongCoBan.toLocaleString('vi-VN') %> đ</td>
+                                <td><%= nv.phuCap.toLocaleString('vi-VN') %> đ</td>
+                                <td class="text-primary fw-bold">
+                                    <%= nv.tongLuong.toLocaleString('vi-VN') %> đ
+                                </td>
+                                <td class="text-center">
+                                    <div class="action-buttons">
+                                        <a href="/salary/phieu-luong/<%= nv._id %>?month=<%= selectedMonth %>" class="btn btn-sm btn-outline-primary" title="In phiếu lương">
+                                            <i class="fas fa-print"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        <% }) %>
+                    <% } else { %>
+                        <tr>
+                            <td colspan="10" class="text-center py-5 text-muted">
+                                <i class="fas fa-info-circle me-2"></i>Chưa có dữ liệu nhân viên để tính lương.
+                            </td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4 p-3 bg-light rounded border border-light">
+    <h6 class="text-muted mb-2"><i class="fas fa-info-circle me-2"></i>Công thức tính hiện tại:</h6>
+    <code class="text-primary">Lương = ((Lương cơ bản * Hệ số chức vụ) / 26) * Ngày công + Phụ cấp</code>
+    <p class="small text-muted mt-2 mb-0">* Ngày công được tính dựa trên số ngày 'Có mặt' hoặc 'Đi trễ' trong tháng được chọn.</p>
+</div>
+
+<%- include('partials/footer.ejs') %>

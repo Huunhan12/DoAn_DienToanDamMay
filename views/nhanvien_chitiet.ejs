@@ -1,0 +1,74 @@
+<%- include('partials/header.ejs') %>
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card overflow-hidden">
+            <div class="profile-card-header"></div>
+            <div class="card-body px-5 pb-5">
+                <div class="row">
+                    <div class="col-md-4 text-center mb-4 profile-avatar-container">
+                        <img src="/images/<%= nv.hinhAnh %>" alt="avatar" class="profile-avatar mb-3" onerror="this.src='https://ui-avatars.com/api/?name=<%= nv.hoTen %>&size=200&background=random'">
+                        <h3 class="fw-extrabold mt-3"><%= nv.hoTen %></h3>
+                        <span class="badge bg-primary px-3 py-2"><%= nv.maNV %></span>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <label class="text-muted small text-uppercase">Phòng Ban</label>
+                                <p class="fs-5 fw-bold"><%= nv.phongBan ? nv.phongBan.tenPhongBan : '---' %></p>
+                            </div>
+                            <div class="col-6">
+                                <label class="text-muted small text-uppercase">Chức Vụ</label>
+                                <p class="fs-5 fw-bold"><%= nv.chucVu ? nv.chucVu.tenChucVu : '---' %></p>
+                            </div>
+                            <div class="col-6">
+                                <label class="text-muted small text-uppercase">Email</label>
+                                <p><%= nv.email || '---' %></p>
+                            </div>
+                            <div class="col-6">
+                                <label class="text-muted small text-uppercase">Số điện thoại</label>
+                                <p><%= nv.soDienThoai || '---' %></p>
+                            </div>
+                            <div class="col-12">
+                                <hr>
+                            </div>
+                            <div class="col-6">
+                                <label class="text-muted small text-uppercase">Giới tính</label>
+                                <p><%= nv.gioiTinh %></p>
+                            </div>
+                            <div class="col-6">
+                                <label class="text-muted small text-uppercase">Ngày sinh</label>
+                                <p><%= nv.ngaySinh ? nv.ngaySinh.toLocaleDateString('vi-VN') : '---' %></p>
+                            </div>
+                            <div class="col-12">
+                                <label class="text-muted small text-uppercase">Địa chỉ</label>
+                                <p><%= nv.diaChi || '---' %></p>
+                            </div>
+                            <div class="col-12">
+                                <div class="bg-light p-3 rounded border d-flex justify-content-between">
+                                    <div>
+                                        <label class="text-muted small text-uppercase d-block">Lương cơ bản</label>
+                                        <span class="fw-bold"><%= nv.luongCoBan.toLocaleString('vi-VN') %> đ</span>
+                                    </div>
+                                    <div>
+                                        <label class="text-muted small text-uppercase d-block">Phụ cấp</label>
+                                        <span class="fw-bold text-success">+ <%= nv.phuCap.toLocaleString('vi-VN') %> đ</span>
+                                    </div>
+                                    <div class="text-end">
+                                        <label class="text-muted small text-uppercase d-block">Ngày vào làm</label>
+                                        <span><%= nv.ngayVaoLam ? nv.ngayVaoLam.toLocaleDateString('vi-VN') : '---' %></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 pt-3 border-top text-end">
+                    <a href="/nhanvien/sua/<%= nv._id %>" class="btn btn-primary px-4 fw-bold">
+                        <i class="fas fa-edit me-2"></i>Chỉnh sửa hồ sơ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('partials/footer.ejs') %>

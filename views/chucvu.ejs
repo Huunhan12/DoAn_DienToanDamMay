@@ -1,0 +1,54 @@
+<%- include('partials/header.ejs') %>
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="fw-bold"><i class="fas fa-briefcase me-2 text-primary"></i>Danh Sách Chức Vụ</h3>
+    <a href="/chucvu/them" class="btn btn-primary shadow-sm fw-bold">
+        <i class="fas fa-plus me-2"></i>Thêm Chức Vụ
+    </a>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0 align-middle">
+                <thead>
+                    <tr>
+                        <th>Mã Chức Vụ</th>
+                        <th>Tên Chức Vụ</th>
+                        <th>Mô Tả</th>
+                        <th>Hệ Số Lương</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% if(typeof data !== 'undefined' && data.length > 0) { %>
+                        <% data.forEach(cv => { %>
+                            <tr>
+                                <td class="fw-bold text-primary"><%= cv.maChucVu %></td>
+                                <td class="fw-bold"><%= cv.tenChucVu %></td>
+                                <td class="text-muted"><%= cv.moTa %></td>
+                                <td><span class="badge bg-secondary">x <%= cv.heSoLuong %></span></td>
+                                <td>
+                                    <div class="action-buttons">
+                                        <a href="/chucvu/sua/<%= cv._id %>" class="btn btn-sm btn-outline-warning">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <form action="/chucvu/xoa/<%= cv._id %>?_method=DELETE" method="POST" class="d-inline" onsubmit="return confirm('Bạn có chắc muốn xóa chức vụ này?');">
+                                            <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </td>
+                            </tr>
+                        <% }) %>
+                    <% } else { %>
+                        <tr>
+                            <td colspan="5" class="text-center py-5 text-muted text-uppercase small">Chưa có chức vụ nào</td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<%- include('partials/footer.ejs') %>
