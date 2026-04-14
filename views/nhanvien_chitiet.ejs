@@ -43,19 +43,17 @@
                                 <label class="text-muted small text-uppercase">Địa chỉ</label>
                                 <p><%= nv.diaChi || '---' %></p>
                             </div>
-                            <div class="col-12">
-                                <div class="bg-light p-3 rounded border d-flex justify-content-between">
-                                    <div>
-                                        <label class="text-muted small text-uppercase d-block">Lương cơ bản</label>
-                                        <span class="fw-bold"><%= nv.luongCoBan.toLocaleString('vi-VN') %> đ</span>
-                                    </div>
-                                    <div>
-                                        <label class="text-muted small text-uppercase d-block">Phụ cấp</label>
-                                        <span class="fw-bold text-success">+ <%= nv.phuCap.toLocaleString('vi-VN') %> đ</span>
-                                    </div>
-                                    <div class="text-end">
-                                        <label class="text-muted small text-uppercase d-block">Ngày vào làm</label>
-                                        <span><%= nv.ngayVaoLam ? nv.ngayVaoLam.toLocaleDateString('vi-VN') : '---' %></span>
+                            <div class="col-12 mt-4">
+                                <div class="bg-light p-3 rounded border shadow-sm">
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+                                            <label class="text-muted small text-uppercase d-block mb-1">Lương cơ bản</label>
+                                            <span class="fw-bold text-primary fs-5"><%= nv.luongCoBan.toLocaleString('vi-VN') %> đ</span>
+                                        </div>
+                                        <div class="col-6 text-end">
+                                            <label class="text-muted small text-uppercase d-block mb-1">Ngày vào làm</label>
+                                            <span class="fw-bold text-dark"><%= nv.ngayVaoLam ? nv.ngayVaoLam.toLocaleDateString('vi-VN') : '---' %></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

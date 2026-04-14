@@ -79,15 +79,11 @@
                             </select>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <label class="form-label text-muted">Lương Cơ Bản</label>
                             <input type="number" name="luongCoBan" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.luongCoBan %>" <%= user && user.vaiTro === 'user' ? 'readonly' : '' %>>
                         </div>
-                        <div class="col-md-4">
-                            <label class="form-label text-muted">Phụ Cấp</label>
-                            <input type="number" name="phuCap" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.phuCap %>" <%= user && user.vaiTro === 'user' ? 'readonly' : '' %>>
-                        </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <label class="form-label text-muted">Ngày Vào Làm</label>
                             <input type="date" name="ngayVaoLam" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.ngayVaoLam ? nv.ngayVaoLam.toISOString().split('T')[0] : '' %>">
                         </div>

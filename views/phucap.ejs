@@ -1,0 +1,113 @@
+<%- include('partials/header.ejs') %>
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="fw-bold"><i class="fas fa-hand-holding-usd me-2 text-primary"></i>Quản Lý Phụ Cấp</h3>
+    <div class="d-flex align-items-center gap-3">
+        <!-- Bộ chọn tháng/năm -->
+        <form action="/phucap" method="GET" id="monthFilterForm" class="d-flex align-items-center bg-white p-2 rounded shadow-sm border border-light">
+            <label class="me-2 text-nowrap fw-bold text-muted"><i class="fas fa-calendar-alt me-1"></i>Tháng:</label>
+            <input type="month" name="month" class="form-control form-control-sm border-primary" value="<%= selectedMonth %>" onchange="this.form.submit()">
+        </form>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0 align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th class="ps-4">Mã NV</th>
+                        <th>Họ Tên</th>
+                        <th>Tiền Xăng</th>
+                        <th>Tiền Cơm</th>
+                        <th>Tiền Công Tác</th>
+                        <th class="text-primary fw-bold">Tổng Phụ Cấp</th>
+                        <% if(user && user.vaiTro === 'admin') { %>
+                        <th class="text-center pe-4">Thao tác</th>
+                        <% } %>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% if(typeof data !== 'undefined' && data.length > 0) { %>
+                        <% data.forEach(nv => { %>
+                            <tr>
+                                <td class="fw-bold text-primary ps-4"><%= nv.maNV %></td>
+                                <td><%= nv.hoTen %></td>
+                                <td><%= (nv.tienXang || 0).toLocaleString('vi-VN') %> đ</td>
+                                <td><%= (nv.tienCom || 0).toLocaleString('vi-VN') %> đ</td>
+                                <td><%= (nv.tienCongTac || 0).toLocaleString('vi-VN') %> đ</td>
+                                <td class="text-primary fw-bold">
+                                    <%= ((nv.tienXang || 0) + (nv.tienCom || 0) + (nv.tienCongTac || 0)).toLocaleString('vi-VN') %> đ
+                                </td>
+                                <% if(user && user.vaiTro === 'admin') { %>
+                                <td class="text-center pe-4">
+                                    <button class="btn btn-sm btn-warning text-dark fw-bold rounded-pill px-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#editPhuCapModal<%= nv._id %>">
+                                        <i class="fas fa-edit me-1"></i>Sửa
+                                    </button>
+                                </td>
+                                <% } %>
+                            </tr>
+                        <% }) %>
+                            
+
+                    <% } else { %>
+                        <tr>
+                            <td colspan="7" class="text-center py-5 text-muted">
+                                <i class="fas fa-info-circle me-2"></i>Chưa có dữ liệu nhân viên.
+                            </td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<% if(user && user.vaiTro === 'admin' && typeof data !== 'undefined' && data.length > 0) { %>
+    <% data.forEach(nv => { %>
+        <!-- Modal Form Sửa Phụ Cấp -->
+        <div class="modal fade" id="editPhuCapModal<%= nv._id %>" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <form action="/phucap/capnhat/<%= nv._id %>?month=<%= selectedMonth %>" method="POST" class="modal-content shadow-lg border-0">
+              <div class="modal-header bg-light">
+                <h5 class="modal-title fw-bold text-dark"><i class="fas fa-hand-holding-usd me-2 text-primary"></i>Phụ Cấp: <%= nv.hoTen %></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body p-4">
+                  <div class="mb-3">
+                      <label class="form-label fw-semibold text-muted">Tiền Xăng (VNĐ)</label>
+                      <div class="input-group">
+                        <span class="input-group-text bg-white"><i class="fas fa-gas-pump text-primary"></i></span>
+                        <input type="number" class="form-control" name="tienXang" value="<%= nv.tienXang || 0 %>" min="0">
+                      </div>
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label fw-semibold text-muted">Tiền Cơm (VNĐ)</label>
+                      <div class="input-group">
+                        <span class="input-group-text bg-white"><i class="fas fa-utensils text-warning"></i></span>
+                        <input type="number" class="form-control" name="tienCom" value="<%= nv.tienCom || 0 %>" min="0">
+                      </div>
+                  </div>
+                  <div class="mb-4">
+                      <label class="form-label fw-semibold text-muted">Tiền Công Tác (VNĐ)</label>
+                      <div class="input-group">
+                        <span class="input-group-text bg-white"><i class="fas fa-briefcase text-success"></i></span>
+                        <input type="number" class="form-control" name="tienCongTac" value="<%= nv.tienCongTac || 0 %>" min="0">
+                      </div>
+                  </div>
+                  <div class="p-3 bg-light rounded text-center border">
+                      <small class="text-muted d-block">Tổng Phụ Cấp (Tự Động Tính)</small>
+                      <h4 class="text-primary mb-0 mt-1 fw-bold"><%= ((nv.tienXang || 0) + (nv.tienCom || 0) + (nv.tienCongTac || 0)).toLocaleString('vi-VN') %> đ</h4>
+                  </div>
+              </div>
+              <div class="modal-footer border-0 pb-4 pe-4">
+                <button type="button" class="btn btn-light px-4" data-bs-dismiss="modal">Đóng</button>
+                <button type="submit" class="btn btn-primary px-4 shadow-sm">Lưu Thay Đổi</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    <% }) %>
+<% } %>
+
+<%- include('partials/footer.ejs') %>

@@ -2,8 +2,44 @@ const express = require('express');
 const router = express.Router();
 const NhanVien = require('../models/nhanvien');
 const ChamCong = require('../models/chamcong');
+const BangLuong = require('../models/bangluong');
 const moment = require('moment');
 const ExcelJS = require('exceljs');
+
+// Helper function để quản lý chốt lương theo tháng
+async function getLichSuLuong(nv, selectedMonth) {
+    const currentMonth = moment().format('YYYY-MM');
+    let usedLuongCoBan = nv.luongCoBan;
+    let usedPhuCap = 0; // Mặc định là 0 nếu chưa nhập phụ cấp cho tháng
+    
+    // Tìm bản ghi lương của tháng đó (được tự động tạo hoặc tạo tay thông qua màn hình Phụ Cấp)
+    let bl = await BangLuong.findOne({ nhanVien: nv._id, thangNam: selectedMonth });
+
+    if (selectedMonth >= currentMonth) {
+        // Tháng hiện hành hoặc tương lai: tracking Lương cơ bản theo NhanVien, còn Phụ cấp giữ nguyên của BangLuong (nếu có)
+        bl = await BangLuong.findOneAndUpdate(
+            { nhanVien: nv._id, thangNam: selectedMonth },
+            { $set: { luongCoBan: usedLuongCoBan } },
+            { upsert: true, new: true, setDefaultsOnInsert: true }
+        );
+        usedPhuCap = bl.phuCap || 0;
+    } else {
+        if (bl) {
+            usedLuongCoBan = bl.luongCoBan;
+            usedPhuCap = bl.phuCap || 0;
+        } else {
+            // Nếu không có lịch sử cũ, lưu fallback Lương cơ bản hiện hành. Phụ Cấp cũ mặc định coi là 0 (vì ko có config)
+            bl = await BangLuong.create({ 
+                nhanVien: nv._id, 
+                thangNam: selectedMonth, 
+                luongCoBan: usedLuongCoBan, 
+                phuCap: 0, tienXang: 0, tienCom: 0, tienCongTac: 0
+            });
+            usedPhuCap = 0;
+        }
+    }
+    return { usedLuongCoBan, usedPhuCap, bl };
+}
 
 // Middleware kiểm tra đăng nhập
 const ensureAuthenticated = (req, res, next) => {
@@ -42,14 +78,18 @@ router.get('/', ensureAuthenticated, async (req, res) => {
                 trangThai: { $in: ['Có mặt', 'Đi trễ'] }
             });
 
+            // Gọi helper để lấy lương tương ứng với tháng đang xem
+            const { usedLuongCoBan, usedPhuCap } = await getLichSuLuong(nv, selectedMonth);
+
             const heSo = nv.chucVu ? nv.chucVu.heSoLuong : 1;
-            const thucNhanPhuCap = ngayCong > 15 ? nv.phuCap : 0;
-            const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
+            const thucNhanPhuCap = ngayCong > 15 ? usedPhuCap : 0;
+            const tongLuong = Math.round(((usedLuongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
             
             return {
                 ...nv._doc,
+                luongCoBan: usedLuongCoBan, // Ghi đè để render
                 ngayCong,
-                phuCapGoc: nv.phuCap, // Lưu lại phụ cấp gốc để hiển thị nếu cần
+                phuCapGoc: usedPhuCap, // Lưu lại phụ cấp gốc để hiển thị nếu cần
                 phuCap: thucNhanPhuCap, // Ghi đè phuCap bằng số tiền thực nhận
                 tongLuong
             };
@@ -100,9 +140,11 @@ router.get('/export', ensureAuthenticated, async (req, res) => {
                 trangThai: { $in: ['Có mặt', 'Đi trễ'] }
             });
 
+            const { usedLuongCoBan, usedPhuCap } = await getLichSuLuong(nv, selectedMonth);
+
             const heSo = nv.chucVu ? nv.chucVu.heSoLuong : 1;
-            const thucNhanPhuCap = ngayCong > 15 ? nv.phuCap : 0;
-            const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
+            const thucNhanPhuCap = ngayCong > 15 ? usedPhuCap : 0;
+            const tongLuong = Math.round(((usedLuongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
 
             worksheet.addRow({
                 maNV: nv.maNV,
@@ -110,7 +152,7 @@ router.get('/export', ensureAuthenticated, async (req, res) => {
                 phongBan: nv.phongBan ? nv.phongBan.tenPhongBan : '',
                 chucVu: nv.chucVu ? nv.chucVu.tenChucVu : '',
                 ngayCong: ngayCong,
-                luongCoBan: nv.luongCoBan,
+                luongCoBan: usedLuongCoBan,
                 phuCap: thucNhanPhuCap,
                 tongLuong: tongLuong
             });
@@ -153,8 +195,14 @@ router.get('/phieu-luong/:id', ensureAuthenticated, async (req, res) => {
         });
 
         const heSo = nv.chucVu ? nv.chucVu.heSoLuong : 1;
-        const thucNhanPhuCap = ngayCong > 15 ? nv.phuCap : 0;
-        const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
+        const { usedLuongCoBan, usedPhuCap } = await getLichSuLuong(nv, selectedMonth);
+        
+        // Cập nhật lại trong object truyền xuống view
+        nv.luongCoBan = usedLuongCoBan;
+        nv.phuCap = usedPhuCap;
+
+        const thucNhanPhuCap = ngayCong > 15 ? usedPhuCap : 0;
+        const tongLuong = Math.round(((usedLuongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
 
         res.render('export_phieu_luong', {
             title: 'BẢNG LƯƠNG NHÂN VIÊN',

@@ -1,0 +1,7 @@
+[
+  { "_id": { "$oid": "661000000000000000000001" }, "maPhongBan": "PB01", "tenPhongBan": "Phòng Nhân Sự", "moTa": "Quản lý nhân sự và tiền lương", "ngayThanhLap": { "$date": "2024-01-01T00:00:00Z" } },
+  { "_id": { "$oid": "661000000000000000000002" }, "maPhongBan": "PB02", "tenPhongBan": "Phòng Kỹ Thuật", "moTa": "Phát triển và vận hành phần mềm", "ngayThanhLap": { "$date": "2024-01-01T00:00:00Z" } },
+  { "_id": { "$oid": "661000000000000000000003" }, "maPhongBan": "PB03", "tenPhongBan": "Phòng Kinh Doanh", "moTa": "Tìm kiếm khách hàng và dự án", "ngayThanhLap": { "$date": "2024-02-01T00:00:00Z" } },
+  { "_id": { "$oid": "661000000000000000000004" }, "maPhongBan": "PB04", "tenPhongBan": "Phòng Kế Toán", "moTa": "Quản lý thu chi và quyết toán", "ngayThanhLap": { "$date": "2024-02-15T00:00:00Z" } },
+  { "_id": { "$oid": "661000000000000000000005" }, "maPhongBan": "PB05", "tenPhongBan": "Phòng Marketing", "moTa": "Truyền thông và quảng bá thương hiệu", "ngayThanhLap": { "$date": "2024-03-01T00:00:00Z" } }
+]

@@ -1,0 +1,7 @@
+[
+  { "_id": { "$oid": "662000000000000000000001" }, "maChucVu": "CV01", "tenChucVu": "Giám Đốc", "heSoLuong": 5.0, "moTa": "Lãnh đạo và định hướng công ty" },
+  { "_id": { "$oid": "662000000000000000000002" }, "maChucVu": "CV02", "tenChucVu": "Trưởng Phòng", "heSoLuong": 3.0, "moTa": "Quản lý và điều hành phòng ban" },
+  { "_id": { "$oid": "662000000000000000000003" }, "maChucVu": "CV03", "tenChucVu": "Nhân Viên Chính Thức", "heSoLuong": 1.5, "moTa": "Thực hiện các công việc chuyên môn" },
+  { "_id": { "$oid": "662000000000000000000004" }, "maChucVu": "CV04", "tenChucVu": "Kỹ Thuật Viên", "heSoLuong": 1.8, "moTa": "Vận hành và bảo trì hệ thống" },
+  { "_id": { "$oid": "662000000000000000000005" }, "maChucVu": "CV05", "tenChucVu": "Thực Tập Sinh", "heSoLuong": 1.0, "moTa": "Học tập và hỗ trợ dự án" }
+]

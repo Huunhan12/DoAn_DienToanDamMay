@@ -50,7 +50,6 @@ const NhanVienSchema = new mongoose.Schema({
     chucVu: { type: mongoose.Schema.Types.ObjectId, ref: 'ChucVu' }, // Liên kết tới chức vụ
     ngayVaoLam: { type: Date, default: Date.now },
     luongCoBan: { type: Number, default: 0 }, // Lương khởi điểm
-    phuCap: { type: Number, default: 0 }, // Phụ cấp trách nhiệm/khác
     hinhAnh: { type: String, default: 'default.jpg' }, // Tên file ảnh hồ sơ
     trangThai: { type: String, enum: ['Đang làm việc', 'Đã nghỉ việc'], default: 'Đang làm việc' }
 }, { timestamps: true }); // Tự động quản lý createdAt và updatedAt

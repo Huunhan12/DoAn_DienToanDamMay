@@ -21,7 +21,10 @@
                         <a class="nav-link" href="/chucvu"><i class="fas fa-briefcase me-1"></i>Chức vụ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/chamcong"><i class="fas fa-calendar-check me-1"></i>Chấm công</a>
+                        <a class="nav-link <%= typeof currentRoute !== 'undefined' && currentRoute === 'chamcong' ? 'active' : '' %>" href="/chamcong"><i class="fas fa-calendar-check me-1"></i>Chấm công</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <%= typeof currentRoute !== 'undefined' && currentRoute === 'phucap' ? 'active' : '' %>" href="/phucap"><i class="fas fa-hand-holding-usd me-1"></i>Phụ cấp</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <%= typeof currentRoute !== 'undefined' && currentRoute === 'salary' ? 'active' : '' %>" href="/salary"><i class="fas fa-money-bill-wave me-1"></i>Bảng lương</a>

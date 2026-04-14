@@ -50,6 +50,7 @@ const chucvuRoutes = require('./routers/chucvu');
 const taikhoanRoutes = require('./routers/taikhoan');
 const chamcongRoutes = require('./routers/chamcong');
 const salaryRoutes = require('./routers/salary');
+const phucapRoutes = require('./routers/phucap');
 
 // Sử dụng các Routes
 app.use('/', indexRoutes);
@@ -60,6 +61,7 @@ app.use('/chucvu', chucvuRoutes);
 app.use('/taikhoan', taikhoanRoutes);
 app.use('/chamcong', chamcongRoutes);
 app.use('/salary', salaryRoutes);
+app.use('/phucap', phucapRoutes);
 // app.use('/phongban', phongbanRoutes);
 // app.use('/chucvu', chucvuRoutes);
 // app.use('/taikhoan', taikhoanRoutes);

@@ -1,0 +1,167 @@
+[
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 20000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 15000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 12000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 13000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 8000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 12500000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 14000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 11500000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 13500000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 7500000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 16000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 11000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 13000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 10500000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "thangNam": "2026-03",
+    "luongCoBan": 12000000,
+    "tienXang": 500000,
+    "tienCom": 660000,
+    "tienCongTac": 200000,
+    "phuCap": 1360000
+  }
+]

@@ -1,0 +1,4652 @@
+[
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000001"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000002"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000003"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000004"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000005"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000006"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000007"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000008"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000009"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000010"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000011"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000012"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000013"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000014"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-01T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-02T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-03T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-04T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-05T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-06T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-07T08:00:00Z"
+    },
+    "trangThai": "Vắng mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-08T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-09T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-10T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-11T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-12T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-13T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-14T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-15T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-16T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-17T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-18T08:00:00Z"
+    },
+    "trangThai": "Nghỉ phép",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-19T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-20T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-21T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-22T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-23T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-24T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-25T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-26T08:00:00Z"
+    },
+    "trangThai": "Đi trễ",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-27T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-28T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-29T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-30T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  },
+  {
+    "nhanVien": {
+      "$oid": "663000000000000000000015"
+    },
+    "ngayChamCong": {
+      "$date": "2026-03-31T08:00:00Z"
+    },
+    "trangThai": "Có mặt",
+    "ghiChu": ""
+  }
+]
