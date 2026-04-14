@@ -7,7 +7,10 @@
         </button>
         <form action="/chamcong" method="GET" class="d-flex align-items-center">
             <label class="me-2 text-nowrap">Chọn ngày:</label>
-            <input type="date" name="date" class="form-control form-control-sm" value="<%= currentDate %>" onchange="this.form.submit()">
+            <% 
+                const today = new Date().toISOString().split('T')[0];
+            %>
+            <input type="date" name="date" class="form-control form-control-sm" value="<%= currentDate %>" max="<%= today %>" onchange="this.form.submit()">
         </form>
     </div>
 </div>

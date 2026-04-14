@@ -18,12 +18,33 @@ router.get('/', ensureAuthenticated, async (req, res) => {
 });
 
 // Giao diện Thêm phòng ban
-router.get('/them', ensureAuthenticated, (req, res) => {
-    res.render('phongban_form', { title: 'Thêm Phòng Ban', pb: null });
+router.get('/them', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        req.flash('error_msg', 'Quyền truy cập bị từ chối');
+        return res.redirect('/phongban');
+    }
+    try {
+        const lastPB = await PhongBan.findOne().sort({ maPhongBan: -1 });
+        let suggestMaPB = 'PB01';
+        if (lastPB && lastPB.maPhongBan) {
+            const numMatch = lastPB.maPhongBan.match(/\d+/);
+            if (numMatch) {
+                const num = parseInt(numMatch[0]) + 1;
+                suggestMaPB = 'PB' + num.toString().padStart(2, '0');
+            }
+        }
+        res.render('phongban_form', { title: 'Thêm Phòng Ban', pb: null, suggestMaPB });
+    } catch (err) {
+        console.error(err);
+        res.redirect('/phongban');
+    }
 });
 
 // Xử lý Thêm phòng ban
 router.post('/them', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        return res.status(403).send('Quyền truy cập bị từ chối');
+    }
     try {
         const newPb = new PhongBan(req.body);
         await newPb.save();
@@ -37,6 +58,10 @@ router.post('/them', ensureAuthenticated, async (req, res) => {
 
 // Giao diện Sửa phòng ban
 router.get('/sua/:id', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        req.flash('error_msg', 'Quyền truy cập bị từ chối');
+        return res.redirect('/phongban');
+    }
     try {
         const pb = await PhongBan.findById(req.params.id);
         res.render('phongban_form', { title: 'Sửa Phòng Ban', pb });
@@ -47,6 +72,9 @@ router.get('/sua/:id', ensureAuthenticated, async (req, res) => {
 
 // Xử lý Sửa phòng ban
 router.post('/sua/:id', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        return res.status(403).send('Quyền truy cập bị từ chối');
+    }
     try {
         await PhongBan.findByIdAndUpdate(req.params.id, req.body);
         req.flash('success_msg', 'Cập nhật thành công');
@@ -58,6 +86,9 @@ router.post('/sua/:id', ensureAuthenticated, async (req, res) => {
 
 // Xóa phòng ban
 router.delete('/xoa/:id', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        return res.status(403).send('Quyền truy cập bị từ chối');
+    }
     try {
         await PhongBan.findByIdAndDelete(req.params.id);
         req.flash('success_msg', 'Xóa thành công');

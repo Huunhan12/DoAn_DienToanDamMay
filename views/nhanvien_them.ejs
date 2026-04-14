@@ -11,7 +11,7 @@
                     <div class="row g-3">
                         <div class="col-md-4">
                             <label class="form-label text-muted">Mã Nhân Viên <span class="text-danger">*</span></label>
-                            <input type="text" name="maNV" class="form-control bg-dark-subtle border-secondary text-white" placeholder="VD: NV001" required>
+                            <input type="text" name="maNV" class="form-control bg-dark-subtle border-secondary text-white fw-bold" value="<%= typeof suggestMaNV !== 'undefined' ? suggestMaNV : '' %>" readonly required>
                         </div>
                         <div class="col-md-8">
                             <label class="form-label text-muted">Họ và Tên <span class="text-danger">*</span></label>
@@ -19,8 +19,13 @@
                         </div>
 
                         <div class="col-md-4">
-                            <label class="form-label text-muted">Ngày Sinh</label>
-                            <input type="date" name="ngaySinh" class="form-control bg-dark-subtle border-secondary text-white">
+                            <label class="form-label text-muted">Ngày Sinh <span class="text-danger">*</span></label>
+                            <% 
+                                const eighteenYearsAgo = new Date();
+                                eighteenYearsAgo.setFullYear(eighteenYearsAgo.getFullYear() - 18);
+                                const maxDate = eighteenYearsAgo.toISOString().split('T')[0];
+                            %>
+                            <input type="date" name="ngaySinh" class="form-control bg-dark-subtle border-secondary text-white" required max="<%= maxDate %>">
                         </div>
                         <div class="col-md-4">
                             <label class="form-label text-muted">Giới Tính</label>

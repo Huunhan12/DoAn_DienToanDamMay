@@ -78,8 +78,8 @@
 
 <div class="mt-4 p-3 bg-light rounded border border-light">
     <h6 class="text-muted mb-2"><i class="fas fa-info-circle me-2"></i>Công thức tính hiện tại:</h6>
-    <code class="text-primary">Lương = ((Lương cơ bản * Hệ số chức vụ) / 26) * Ngày công + Phụ cấp</code>
-    <p class="small text-muted mt-2 mb-0">* Ngày công được tính dựa trên số ngày 'Có mặt' hoặc 'Đi trễ' trong tháng được chọn.</p>
+    <code class="text-primary">Lương = ((Lương cơ bản * Hệ số chức vụ) / 26) * Ngày công + Phụ cấp (nếu ngày công > 15)</code>
+    <p class="small text-muted mt-2 mb-0">* Ngày công được tính dựa trên số ngày 'Có mặt' hoặc 'Đi trễ'. Nhân viên làm <strong>trên 15 ngày</strong> mới được nhận phụ cấp.</p>
 </div>
 
 <%- include('partials/footer.ejs') %>

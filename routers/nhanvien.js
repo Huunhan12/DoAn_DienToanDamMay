@@ -43,10 +43,23 @@ router.get('/them', ensureAuthenticated, async (req, res) => {
     try {
         const phongbans = await PhongBan.find();
         const chucvus = await ChucVu.find();
+
+        // Tự động sinh mã NV tiếp theo
+        const lastNV = await NhanVien.findOne().sort({ maNV: -1 });
+        let suggestMaNV = 'NV001';
+        if (lastNV && lastNV.maNV) {
+            const numMatch = lastNV.maNV.match(/\d+/);
+            if (numMatch) {
+                const num = parseInt(numMatch[0]) + 1;
+                suggestMaNV = 'NV' + num.toString().padStart(3, '0');
+            }
+        }
+
         res.render('nhanvien_them', { 
             title: 'Thêm Nhân Viên Mới', 
             phongbans, 
-            chucvus 
+            chucvus,
+            suggestMaNV
         });
     } catch (err) {
         console.error(err);
@@ -100,6 +113,15 @@ router.post('/sua/:id', ensureAuthenticated, async (req, res) => {
         // Xử lý giá trị trống cho các trường ObjectId
         if (req.body.phongBan === '') req.body.phongBan = null;
         if (req.body.chucVu === '') req.body.chucVu = null;
+
+        // Nếu là 'user', từ chối cập nhật các trường nhạy cảm
+        if (req.session.user.vaiTro === 'user') {
+            delete req.body.luongCoBan;
+            delete req.body.phuCap;
+            delete req.body.phongBan;
+            delete req.body.chucVu;
+            delete req.body.trangThai;
+        }
 
         await NhanVien.findByIdAndUpdate(req.params.id, req.body);
         req.flash('success_msg', 'Cập nhật nhân viên thành công!');

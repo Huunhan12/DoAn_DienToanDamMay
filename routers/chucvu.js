@@ -18,12 +18,33 @@ router.get('/', ensureAuthenticated, async (req, res) => {
 });
 
 // Giao diện Thêm chức vụ
-router.get('/them', ensureAuthenticated, (req, res) => {
-    res.render('chucvu_form', { title: 'Thêm Chức Vụ', cv: null });
+router.get('/them', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        req.flash('error_msg', 'Quyền truy cập bị từ chối');
+        return res.redirect('/chucvu');
+    }
+    try {
+        const lastCV = await ChucVu.findOne().sort({ maChucVu: -1 });
+        let suggestMaCV = 'CV01';
+        if (lastCV && lastCV.maChucVu) {
+            const numMatch = lastCV.maChucVu.match(/\d+/);
+            if (numMatch) {
+                const num = parseInt(numMatch[0]) + 1;
+                suggestMaCV = 'CV' + num.toString().padStart(2, '0');
+            }
+        }
+        res.render('chucvu_form', { title: 'Thêm Chức Vụ', cv: null, suggestMaCV });
+    } catch (err) {
+        console.error(err);
+        res.redirect('/chucvu');
+    }
 });
 
 // Xử lý Thêm chức vụ
 router.post('/them', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        return res.status(403).send('Quyền truy cập bị từ chối');
+    }
     try {
         const newItem = new ChucVu(req.body);
         await newItem.save();
@@ -37,6 +58,10 @@ router.post('/them', ensureAuthenticated, async (req, res) => {
 
 // Giao diện Sửa chức vụ
 router.get('/sua/:id', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        req.flash('error_msg', 'Quyền truy cập bị từ chối');
+        return res.redirect('/chucvu');
+    }
     try {
         const cv = await ChucVu.findById(req.params.id);
         res.render('chucvu_form', { title: 'Sửa Chức Vụ', cv });
@@ -47,6 +72,9 @@ router.get('/sua/:id', ensureAuthenticated, async (req, res) => {
 
 // Xử lý Sửa chức vụ
 router.post('/sua/:id', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        return res.status(403).send('Quyền truy cập bị từ chối');
+    }
     try {
         await ChucVu.findByIdAndUpdate(req.params.id, req.body);
         req.flash('success_msg', 'Cập nhật thành công');
@@ -58,6 +86,9 @@ router.post('/sua/:id', ensureAuthenticated, async (req, res) => {
 
 // Xóa chức vụ
 router.delete('/xoa/:id', ensureAuthenticated, async (req, res) => {
+    if (req.session.user.vaiTro !== 'admin') {
+        return res.status(403).send('Quyền truy cập bị từ chối');
+    }
     try {
         await ChucVu.findByIdAndDelete(req.params.id);
         req.flash('success_msg', 'Xóa thành công');

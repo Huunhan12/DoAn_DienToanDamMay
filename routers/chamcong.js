@@ -76,7 +76,15 @@ router.post('/update', ensureAuthenticated, async (req, res) => {
     // ... logic sigue ...
     try {
         const { date, attendance } = req.body;
-        const startOfDay = moment(date).startOf('day').toDate();
+        const submitDate = moment(date);
+        
+        // Kiểm tra xem ngày chấm công có lớn hơn ngày hiện tại không
+        if (submitDate.isAfter(moment(), 'day')) {
+            req.flash('error_msg', 'Không thể chấm công cho ngày trong tương lai!');
+            return res.redirect(`/chamcong?date=${date}`);
+        }
+
+        const startOfDay = submitDate.startOf('day').toDate();
         const endOfDay = moment(date).endOf('day').toDate();
 
         // attendance là một đối tượng dạng { idNhanVien: { status, note } }

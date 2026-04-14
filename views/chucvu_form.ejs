@@ -10,7 +10,7 @@
                 <form action="<%= cv ? '/chucvu/sua/' + cv._id : '/chucvu/them' %>" method="POST">
                     <div class="mb-3">
                         <label class="form-label text-muted">Mã Chức Vụ <span class="text-danger">*</span></label>
-                        <input type="text" name="maChucVu" class="form-control bg-dark-subtle border-secondary text-white" value="<%= cv ? cv.maChucVu : '' %>" required <%= cv ? 'readonly' : '' %>>
+                        <input type="text" name="maChucVu" class="form-control bg-dark-subtle border-secondary text-white fw-bold" value="<%= cv ? cv.maChucVu : (typeof suggestMaCV !== 'undefined' ? suggestMaCV : '') %>" required readonly>
                     </div>
                     <div class="mb-3">
                         <label class="form-label text-muted">Tên Chức Vụ <span class="text-danger">*</span></label>

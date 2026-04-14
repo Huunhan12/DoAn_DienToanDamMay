@@ -1,9 +1,11 @@
 <%- include('partials/header.ejs') %>
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h3 class="fw-bold"><i class="fas fa-briefcase me-2 text-primary"></i>Danh Sách Chức Vụ</h3>
+    <% if(user && user.vaiTro === 'admin') { %>
     <a href="/chucvu/them" class="btn btn-primary shadow-sm fw-bold">
         <i class="fas fa-plus me-2"></i>Thêm Chức Vụ
     </a>
+    <% } %>
 </div>
 
 <div class="card shadow-sm">
@@ -16,7 +18,9 @@
                         <th>Tên Chức Vụ</th>
                         <th>Mô Tả</th>
                         <th>Hệ Số Lương</th>
+                        <% if(user && user.vaiTro === 'admin') { %>
                         <th>Thao tác</th>
+                        <% } %>
                     </tr>
                 </thead>
                 <tbody>
@@ -27,6 +31,7 @@
                                 <td class="fw-bold"><%= cv.tenChucVu %></td>
                                 <td class="text-muted"><%= cv.moTa %></td>
                                 <td><span class="badge bg-secondary">x <%= cv.heSoLuong %></span></td>
+                                <% if(user && user.vaiTro === 'admin') { %>
                                 <td>
                                     <div class="action-buttons">
                                         <a href="/chucvu/sua/<%= cv._id %>" class="btn btn-sm btn-outline-warning">
@@ -39,6 +44,7 @@
                                         </form>
                                     </div>
                                 </td>
+                                <% } %>
                             </tr>
                         <% }) %>
                     <% } else { %>

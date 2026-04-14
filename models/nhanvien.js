@@ -21,7 +21,24 @@ const NhanVienSchema = new mongoose.Schema({
         required: true, 
         set: v => toTitleCase(v) // Tự động định dạng họ tên
     },
-    ngaySinh: { type: Date },
+    ngaySinh: { 
+        type: Date, 
+        required: [true, 'Ngày sinh là bắt buộc'],
+        validate: {
+            validator: function(v) {
+                if (!v) return false;
+                const today = new Date();
+                const birthDate = new Date(v);
+                let age = today.getFullYear() - birthDate.getFullYear();
+                const m = today.getMonth() - birthDate.getMonth();
+                if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                    age--;
+                }
+                return age >= 18;
+            },
+            message: 'Nhân viên phải từ 18 tuổi trở lên (đủ 18 năm tính đến ngày hiện tại)'
+        }
+    },
     gioiTinh: { type: String, enum: ['Nam', 'Nữ', 'Khác'], default: 'Nam' },
     diaChi: { 
         type: String, 

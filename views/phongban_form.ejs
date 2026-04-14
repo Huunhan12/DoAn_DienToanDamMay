@@ -10,7 +10,7 @@
                 <form action="<%= pb ? '/phongban/sua/' + pb._id : '/phongban/them' %>" method="POST">
                     <div class="mb-3">
                         <label class="form-label text-muted">Mã Phòng Ban <span class="text-danger">*</span></label>
-                        <input type="text" name="maPhongBan" class="form-control bg-dark-subtle border-secondary text-white" value="<%= pb ? pb.maPhongBan : '' %>" required <%= pb ? 'readonly' : '' %>>
+                        <input type="text" name="maPhongBan" class="form-control bg-dark-subtle border-secondary text-white fw-bold" value="<%= pb ? pb.maPhongBan : (typeof suggestMaPB !== 'undefined' ? suggestMaPB : '') %>" required readonly>
                     </div>
                     <div class="mb-3">
                         <label class="form-label text-muted">Tên Phòng Ban <span class="text-danger">*</span></label>

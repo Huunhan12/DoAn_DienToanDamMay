@@ -19,8 +19,13 @@
                         </div>
 
                         <div class="col-md-4">
-                            <label class="form-label text-muted">Ngày Sinh</label>
-                            <input type="date" name="ngaySinh" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.ngaySinh ? nv.ngaySinh.toISOString().split('T')[0] : '' %>">
+                            <label class="form-label text-muted">Ngày Sinh <span class="text-danger">*</span></label>
+                            <% 
+                                const eighteenYearsAgo = new Date();
+                                eighteenYearsAgo.setFullYear(eighteenYearsAgo.getFullYear() - 18);
+                                const maxDate = eighteenYearsAgo.toISOString().split('T')[0];
+                            %>
+                            <input type="date" name="ngaySinh" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.ngaySinh ? nv.ngaySinh.toISOString().split('T')[0] : '' %>" required max="<%= maxDate %>">
                         </div>
                         <div class="col-md-4">
                             <label class="form-label text-muted">Giới Tính</label>
@@ -46,7 +51,7 @@
 
                         <div class="col-md-4">
                             <label class="form-label text-muted">Phòng Ban</label>
-                            <select name="phongBan" class="form-select bg-dark-subtle border-secondary text-white">
+                            <select name="phongBan" class="form-select bg-dark-subtle border-secondary text-white" <%= user && user.vaiTro === 'user' ? 'disabled' : '' %>>
                                 <option value="">--- Chọn phòng ban ---</option>
                                 <% if(typeof phongbans !== 'undefined') { %>
                                     <% phongbans.forEach(pb => { %>
@@ -57,7 +62,7 @@
                         </div>
                         <div class="col-md-4">
                             <label class="form-label text-muted">Chức Vụ</label>
-                            <select name="chucVu" class="form-select bg-dark-subtle border-secondary text-white">
+                            <select name="chucVu" class="form-select bg-dark-subtle border-secondary text-white" <%= user && user.vaiTro === 'user' ? 'disabled' : '' %>>
                                 <option value="">--- Chọn chức vụ ---</option>
                                 <% if(typeof chucvus !== 'undefined') { %>
                                     <% chucvus.forEach(cv => { %>
@@ -68,7 +73,7 @@
                         </div>
                         <div class="col-md-4">
                             <label class="form-label text-muted">Trạng Thái</label>
-                            <select name="trangThai" class="form-select bg-dark-subtle border-secondary text-white">
+                            <select name="trangThai" class="form-select bg-dark-subtle border-secondary text-white" <%= user && user.vaiTro === 'user' ? 'disabled' : '' %>>
                                 <option value="Đang làm việc" <%= nv.trangThai === 'Đang làm việc' ? 'selected' : '' %>>Đang làm việc</option>
                                 <option value="Đã nghỉ việc" <%= nv.trangThai === 'Đã nghỉ việc' ? 'selected' : '' %>>Đã nghỉ việc</option>
                             </select>
@@ -76,11 +81,11 @@
 
                         <div class="col-md-4">
                             <label class="form-label text-muted">Lương Cơ Bản</label>
-                            <input type="number" name="luongCoBan" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.luongCoBan %>">
+                            <input type="number" name="luongCoBan" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.luongCoBan %>" <%= user && user.vaiTro === 'user' ? 'readonly' : '' %>>
                         </div>
                         <div class="col-md-4">
                             <label class="form-label text-muted">Phụ Cấp</label>
-                            <input type="number" name="phuCap" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.phuCap %>">
+                            <input type="number" name="phuCap" class="form-control bg-dark-subtle border-secondary text-white" value="<%= nv.phuCap %>" <%= user && user.vaiTro === 'user' ? 'readonly' : '' %>>
                         </div>
                         <div class="col-md-4">
                             <label class="form-label text-muted">Ngày Vào Làm</label>

@@ -43,11 +43,14 @@ router.get('/', ensureAuthenticated, async (req, res) => {
             });
 
             const heSo = nv.chucVu ? nv.chucVu.heSoLuong : 1;
-            const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + nv.phuCap);
+            const thucNhanPhuCap = ngayCong > 15 ? nv.phuCap : 0;
+            const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
             
             return {
                 ...nv._doc,
                 ngayCong,
+                phuCapGoc: nv.phuCap, // Lưu lại phụ cấp gốc để hiển thị nếu cần
+                phuCap: thucNhanPhuCap, // Ghi đè phuCap bằng số tiền thực nhận
                 tongLuong
             };
         }));
@@ -98,7 +101,8 @@ router.get('/export', ensureAuthenticated, async (req, res) => {
             });
 
             const heSo = nv.chucVu ? nv.chucVu.heSoLuong : 1;
-            const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + nv.phuCap);
+            const thucNhanPhuCap = ngayCong > 15 ? nv.phuCap : 0;
+            const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
 
             worksheet.addRow({
                 maNV: nv.maNV,
@@ -107,7 +111,7 @@ router.get('/export', ensureAuthenticated, async (req, res) => {
                 chucVu: nv.chucVu ? nv.chucVu.tenChucVu : '',
                 ngayCong: ngayCong,
                 luongCoBan: nv.luongCoBan,
-                phuCap: nv.phuCap,
+                phuCap: thucNhanPhuCap,
                 tongLuong: tongLuong
             });
         }
@@ -149,13 +153,15 @@ router.get('/phieu-luong/:id', ensureAuthenticated, async (req, res) => {
         });
 
         const heSo = nv.chucVu ? nv.chucVu.heSoLuong : 1;
-        const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + nv.phuCap);
+        const thucNhanPhuCap = ngayCong > 15 ? nv.phuCap : 0;
+        const tongLuong = Math.round(((nv.luongCoBan * heSo) / 26) * ngayCong + thucNhanPhuCap);
 
         res.render('export_phieu_luong', {
             title: 'BẢNG LƯƠNG NHÂN VIÊN',
             nv,
             ngayCong,
             heSo,
+            thucNhanPhuCap, // Rename key to avoid conflict or scope issues
             tongLuong,
             thang: moment(selectedMonth).format('MM/YYYY'),
             ngayXuat: moment().format('DD/MM/YYYY')
